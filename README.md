@@ -5,6 +5,10 @@ TOPSIS is an algorithm to determine the best choice out of candidates available 
 ## Usage
 Following query on terminal will provide you the best and worst decisions for the dataset.
 ```
+python <your-file-name> <your-dataset-name.csv> <weight array>("w1,w2,w3,w4,...") <impact array>("i1,i2,i3,i4,...")
+```
+Example-
+```
 python topsis.py dataset_sample.csv 1,1,1,1 0,1,1,0
 ```
 
